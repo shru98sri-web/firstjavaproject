@@ -1,0 +1,94 @@
+1-3 with argument and with return type
+
+1.int square(int a)
+
+{
+    int b=a*a;
+    return b;
+}
+void main()
+{
+   int answer = square(4);
+   print(answer);
+}
+
+2.int add(int a,int b)
+{
+    int c=a+b;
+    return(c);
+}
+void main()
+{
+    int answer= add(10,20);
+    print(answer);
+}
+
+3.String oddoreven(int a)
+{
+    if(a%2==0)
+    {
+        return'Even';
+}
+else
+{
+          return'Odd';
+}
+}
+void main()
+{
+    print(oddoreven(4));
+}
+
+4.with argument and no return type(4-6)
+
+void onetoten(int a)
+{
+    for(int i=1;i<=a;i++)
+    print(i);
+}
+void main()
+{
+    onetoten(10);
+}
+
+5.void onetotwenty(int a) {
+  for (int i = 1; i <= a; i++) {
+    if (i % 2 == 0) {
+      print(i); // This prints each even number as the loop runs
+    }
+  }
+}
+
+void main() {
+  onetotwenty(20); // Just call the function; it handles the printing
+}
+
+6.void multiply(int a)
+{
+    for(int i=1;i<=10;i++)
+    {
+        int c=a* i;
+        print(c);
+
+    }
+    }
+void main()
+{
+multiply(4);
+
+}
+
+7.function without argument and no return value
+
+void main(){
+
+  int total = 0;
+  int n = 100; // change as per required
+  
+  for(int i=1; i<=n; i++){
+    total = total + i;
+  }
+  
+  print("Total is $total");
+  
+}
